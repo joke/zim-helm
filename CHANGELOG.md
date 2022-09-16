@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/joke/zim-helm/compare/v1.0.0...v1.0.1) (2022-09-16)
+
+
+### Bug Fixes
+
+* asdf handling ([df03674](https://github.com/joke/zim-helm/commit/df03674420561d417eb580c26c28b35a41d7c47f))
+
 ## 1.0.0 (2022-09-15)
 
 

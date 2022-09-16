@@ -1,10 +1,9 @@
-local command="${commands[helm]:-${commands[asdf]:+$(asdf which helm)}}"
+(( ${+commands[helm]} || ${+commands[asdf]} && ${+functions[_direnv_hook]} )) && () {
 
-if (( ! ${+command} )); then
-  return 1
-fi
+  local command=${commands[helm]:-"$(${commands[asdf]} which helm 2> /dev/null)"}
+  [[ -z $command ]] && return 1
 
-local compfile=${0:h}/functions/_helm
-if [[ ! -e $compfile || $compfile -ot $command ]]; then
-  $command completion zsh >| $compfile
-fi
+  local compfile=$1/functions/_helm
+  [[ ! -e $compfile || $compfile -ot $command ]] && $command completion zsh >| $compfile
+
+} ${0:h}

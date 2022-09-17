@@ -1,3 +1,7 @@
 = zim-helm
 
 https://github.com/zimfw/zimfw[zim module] for https://github.com/helm/helm[helm].
+
+== Features
+
+* Completion

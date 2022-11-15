@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/joke/zim-helm/compare/v1.1.0...v1.2.0) (2022-11-15)
+
+
+### Features
+
+* check dumpfile after completion update ([2af96e7](https://github.com/joke/zim-helm/commit/2af96e7d97cf198904924bb936aa908cb5f26c6e))
+
 ## [1.1.0](https://github.com/joke/zim-helm/compare/v1.0.1...v1.1.0) (2022-09-17)
 
 

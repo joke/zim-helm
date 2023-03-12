@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/joke/zim-helm/compare/v1.2.0...v1.2.1) (2023-03-12)
+
+
+### Bug Fixes
+
+* new version detection message ([8f430f7](https://github.com/joke/zim-helm/commit/8f430f786ef889818da1354ec082dd5d8210ca19))
+
 ## [1.2.0](https://github.com/joke/zim-helm/compare/v1.1.0...v1.2.0) (2022-11-15)
 
 
